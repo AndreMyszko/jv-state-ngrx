@@ -42,7 +42,12 @@ export class ListComponent implements OnInit {
   }
 
   markAsDone(id: number) {
-    
+    // this.todosService.toggleDone(id)
+    //   .subscribe(todo => {
+    //     this.list$ = this.list$.map(item => item.id === todo.id ? todo : item);
+
+    //   });
+
   }
 
   onDelete(id: number) {
